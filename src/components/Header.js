@@ -20,6 +20,9 @@ const Header = () => {
           <li>
             <Link to="portfolio">Portfolio</Link>
           </li>
+          <li>
+            <Link to="json">Json</Link>
+          </li>
         </ul>
       </div>
     </div>
