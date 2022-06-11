@@ -5,7 +5,6 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
-import User from "./json/User";
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/json" element={<User />} />
+          {/* <Route path="/json" element={<User />} /> */}
         </Routes>
       </BrowserRouter>
     </>
